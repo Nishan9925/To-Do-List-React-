@@ -1,0 +1,103 @@
+body{
+  background-color: hsl(0,0%,10%);
+}
+
+.toDoList{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .toDoListTitle{
+    font-size: 4rem;
+    color: white;
+  }
+  
+  button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .addButton{
+    background-color: green;
+  }
+  
+  .addButton:hover{
+    background-color: darkgreen;
+  }
+  
+  .deleteButton{
+    background-color: red;
+  }
+  
+  .deleteButton:hover{
+    background-color: darkred;
+  }
+  
+  .moveButton{
+    background-color: blue;
+  }
+  
+  .moveButton:hover{
+    background-color: darkblue;
+  }
+  
+  .editButton{
+    background-color: orange;
+  }
+  
+  .editButton:hover{
+    background-color: darkorange;
+  }
+
+  .saveButton{
+    background-color: gray;
+  }
+  
+  .saveButton:hover{
+    background-color: darkgray;
+  }
+  input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: grey;
+  }
+
+  ol{
+    padding: 0;
+  }
+
+  li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text{
+    /* insted of 
+    flex-grow: 1
+    flex-shrink: 1;
+    flex-basis: 0% 
+    used down below flex style*/
+    flex: 1;    
+  }
+
+.deleteButton, .moveButton, .editButton, .saveButton{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
